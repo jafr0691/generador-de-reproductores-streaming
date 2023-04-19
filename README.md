@@ -1,6 +1,11 @@
 ### Panel administrativo de un servicio de reproductores radio straming 
 
 
+**Administracion de los datos del perfil y sus cedenciales**
+
+![Imagen del Tablero de los reproductores](https://github.com/jafr0691/generador-de-reproductores-streaming/blob/master/imgReadme/editarPerfil.jpg)
+
+
 
 **Tablero de control para los reproductores generados**
 
@@ -34,13 +39,7 @@
 
 **Imagen del registro de un usuario**
 
-![Imagen del Tablero de los reproductores](https://github.com/jafr0691/generador-de-reproductores-streaming/blob/master/imgReadme/userRegistr.jpg)
-
-
-
-**Imagen del registro de un usuario**
-
-![Imagen del Tablero de los reproductores](https://github.com/jafr0691/generador-de-reproductores-streaming/blob/master/imgReadme/userRegistr.jpg)
+![Imagen del Tablero de los reproductores](https://github.com/jafr0691/generador-de-reproductores-streaming/blob/master/imgReadme/userRegistre.jpg)
 
 
 
