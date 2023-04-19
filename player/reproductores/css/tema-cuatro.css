@@ -1,0 +1,88 @@
+#cuatro {
+    margin: 0 auto;
+    max-width: 428px;
+    min-width: 270px;
+}
+@keyframes movement-smooth {
+  from {
+    transform: translateX(0%);
+    left: 100%;
+  }
+  to {
+    transform: translateX(-100%);
+    left: 0%;
+  }
+}
+.marquee.marquee-movement-smooth:before {
+  animation-name: movement-smooth;
+}
+.marquee.marquee-direction-left:before,
+.marquee.marquee-direction-normal:before {
+  animation-direction: normal;
+}
+.ssll {
+	padding: 2px 0px 4px;
+	width: 100%;
+	max-width: 428px;
+	min-width: 426px;
+	background: #000000;
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: arial;
+	text-decoration: none;
+	text-align: center;
+	margin: 0px auto;
+	border-radius: 10px 10px 0px 0px;
+}
+.ssll2 {
+padding: 2px 0px 4px; width: 100%; background: #000000; display: block; color: #ffffff; font-weight: normal; font-size: 11px; font-family: arial; text-decoration: none; text-align: center;max-width: 400px;margin: 0px auto;
+}
+@media only screen and (max-width: 600px) {
+.ssll {
+	padding: 2px 0px 4px;
+	width: 100%;
+	max-width: 427.5px;
+	min-width: 226px;
+	background: #000000;
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: arial;
+	text-decoration: none;
+	text-align: center;
+	margin: 0px auto;
+}
+.cuatro .pantalla {
+        background: rgba(0, 0, 0, .8);
+        color: #fff;
+        width: 100%;
+        max-width: 532px;
+        font-family: sans-serif;
+        min-width: 344px;
+        height: 478px;
+        position: absolute;
+        z-index: 500;
+        margin: 0;
+        padding: 0
+    }
+    .cuatro .latido {
+        display: flex;
+        animation: latidos .8s infinite;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        margin: 50% 5%;
+        text-align: center;
+        font-size: x-large;
+        width: 80%;
+        left: 10px;
+        top: -10px;
+        text-shadow: 0 0 15px #000;
+        position: absolute;
+        font-weight: 600
+    }
+
+}

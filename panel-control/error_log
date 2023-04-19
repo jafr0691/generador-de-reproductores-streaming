@@ -1,0 +1,10 @@
+[01-Sep-2022 21:11:18 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:11:32 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:12:37 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:12:59 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:13:37 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:14:10 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:16:51 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[01-Sep-2022 21:21:25 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[14-Jan-2023 19:44:53 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253
+[14-Jan-2023 19:58:14 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/ppsltots/public_html/dashboard/programacion/index.php on line 253

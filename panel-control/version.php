@@ -1,0 +1,1 @@
+<div class="hiddeonminimize version">Versión 1.0.1</div>

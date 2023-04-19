@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    padding-top: 5px;
+}
+
+.theme-container-group {
+    position: relative;
+    padding: 0px 25%;
+}
+
+.theme-container-group #theme-container-middle {
+    width: 100%;
+}
+
+.theme-container-group #theme-container-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    padding-right: 5px;
+}
+.theme-container-group #theme-container-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25%;
+    padding-left: 5px;
+}
+
+@media (max-width: 1120px) {
+    .page-container-width {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    #footer {
+        height: 140px;
+    }
+    #wrapper {
+        padding-bottom: 140px;
+    }
+    #footer .footer-info {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #footer .footer-info .footer-retailer {
+        margin-top: 12px;
+        position: relative;
+    }
+    #footer .footer-name {
+        font-size: 25px;
+        text-align: center;
+    }
+    .theme-container-group {
+        padding: 0;
+    }
+    .theme-container-group #theme-container-left {
+        position: static;
+        width: 50%;
+        float: left;
+    }
+    .theme-container-group #theme-container-right {
+        position: static;
+        width: 50%;
+        float: right; 
+    }
+    
+    /* MENU */
+    .module.module-menu.size-4 {
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    .module.module-menu.size-4 .module-title {
+        display: block;
+        height: 3em;
+        line-height: 3em;
+        cursor: pointer;
+    }
+    .module.module-menu.size-4 .module-body ul {
+        display: none;
+        border-radius: 0px;
+    }
+    .module.module-menu.size-4.menu-opened .module-body ul {
+        display: block;
+    }
+    
+    .module.module-menu.size-4 .module-body ul li {
+        float: none;
+    }
+    .module.module-menu.size-4 .module-body ul li a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .module.module-menu.size-4 .module-body ul li a .icon {
+        display: inline-block;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .theme-container.container-size-2 .module-reduced {
+        width: 100% !important;
+        float: none !important;
+    }
+    .theme-container-group #theme-container-left {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+    .theme-container-group #theme-container-right {
+        width: 100%;
+        padding: 0;
+        float: none; 
+    }
+}

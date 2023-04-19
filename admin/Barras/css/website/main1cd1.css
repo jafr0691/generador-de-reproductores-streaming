@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.browser-compatibility,
+.browser-compatibility body{
+    height: 99%;
+}
+.browser-compatibility iframe#frame-content {
+    border: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-visible {
+    display: none;
+}
+body.is-mobile .mobile-visible {
+    display: initial;
+}
+body.is-mobile .mobile-visible.block {
+    display: block;
+}
+body.is-mobile .mobile-visible.inline-block {
+    display: inline-block;
+}
+
+.vertical-align-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.vertical-align-area .align-container {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vertical-align-area .align-container .align-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ratio-box {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.ratio-box:after {
+    padding-top: 100%;
+    display: block;
+    content: '';
+}
+.ratio-box .ratio-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+.ratio-box.ratio-4-3:after {
+    padding-top: 75%;
+}
+.ratio-box.ratio-16-9:after {
+    padding-top: 56.25%;
+}
+.ratio-box.ratio-15-5:after {
+    padding-top: 33.3%;
+}
+.ratio-box.ratio-5-1:after {
+    padding-top: 20%;
+}
+.ratio-box.ratio-map-wide .map-container,
+.ratio-box.ratio-map-wide .map-container * {
+    max-width: initial;
+}
+
+.ratio-box.ratio-map-wide:after { /*usado em mapas 1100/400*/
+    padding-top: 36.7%;
+}
+
+.ratio-box.ratio-map-wide .block-map-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 996;
+    display: none;
+    background-color: #fff;
+    opacity: 0.6;
+}
+.ratio-box.ratio-map-wide .block-map-mobile .block-content {
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ratio-box.ratio-map-wide .block-map-mobile .block-content .block-message {
+    display: table-cell;
+    vertical-align: middle;
+    color: #000;
+    text-align: center;
+}
+@media (max-width: 1020px) {
+    .ratio-box.ratio-map-wide .block-map-mobile {
+        display: block;
+    }
+}
